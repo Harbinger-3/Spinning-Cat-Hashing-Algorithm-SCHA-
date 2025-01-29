@@ -44,11 +44,17 @@ Entropy ≈ Length * log2(5) ≈ Length * 2.32 bits of entropy
 
 #### Plaintext
 
+```
 "Lorem Ipsum Dolor Sit Amet."
+```
 
 #### Hash Output (Example)
 
+```
+
 "aio  aa i  aiuaui aooa oaa oai ou   iouuiuouoouia ooaoa ioouo ioo uiauoouuau aiuauaoiooouaaaoaaoui  uui aua uoo    oaiao  aauaiu oaa u iu oaiuua uaoo   i iai oiuuiu uuuooouiuiiouaaiaiaioo o ooaaiioiooai auooa  iuoiio  oiiu aoi  iiuouuuou uauuuuuau   o i uo"
+
+```
 
 ---
 
