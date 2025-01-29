@@ -14,7 +14,8 @@ This hashing algorithm is **NOT** cryptographically secure and should **not** be
 - **Minimalistic Design**: Uses only five characters: `o`, `i`, `a`, `u`, and space (` `).
 - **Sensitivity to Input**: Small changes in the input produce drastically different results (Avalanche effect).
 - **Rotation Mechanism**: A unique spin mechanism that alternates the direction of rotation during hashing, adding extra complexity.
-- **Pseudorandom Number Generation**: Utilizes the Mulberry32 pseudorandom number generator (PRNG) for randomization.
+- **Pseudorandom Number Generation**: Utilizes the Mulberry32 pseudorandom number generator (PRNG) for stream generation.
+- **Hash Verification**: You can verify a message's integrity by comparing its hash value with the original hash to ensure it hasn't been altered.
 
 ---
 
