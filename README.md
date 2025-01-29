@@ -107,6 +107,24 @@ To use the hashing algorithm, you can either copy the JavaScript code into your 
 
 ---
 
+## Secure Version is Available!
+
+We are excited to announce the release of the **Secure Version** of the Spinning Cat Hashing Algorithm (SCHA). This version offers enhanced unpredictability and a higher entropy output compared to the original version. 
+
+### Key Features:
+- **Increased Entropy**: The hash length can now be configured by the user (in bytes), and the output is encoded in hexadecimal for better readability.
+- **Improved Output**: This secure version generates significantly larger hash outputs, making it more resistant to brute-force and collision attacks.
+- **Potential Cryptographic Use**: While not cryptographically secure, the enhanced entropy could serve as a potential cryptographic-like solution for certain non-critical use cases.
+
+### Important Notes:
+- **Performance Considerations**: Larger hash lengths and the rotating mechanism can result in slower performance for large datasets.
+- **Not Cryptographically Secure**: While this version offers better entropy, it does not meet the security standards of established cryptographic algorithms such as SHA-256 or bcrypt. 
+
+### Use Cases:
+This version is suitable for non-security-critical applications where you need a larger, more complex hash that is still easy to generate and work with. It's perfect for low-security scenarios or fun projects where a simple but more secure hash is required.
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
