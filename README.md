@@ -22,7 +22,7 @@ This hashing algorithm is **NOT** cryptographically secure and should **not** be
 ## Limitations
 - **Low Entropy**: Limited to five possible characters, the entropy of this hash is significantly low, making it easily vulnerable to brute-force attacks.
 - **Not Secure**: This algorithm is not cryptographically secure and should not be used for real-world security purposes.
-- **Slow Performance**: The larger the input, the slower the hashing process due to the additional complexity of alternating spins and rotations.
+- **Slow Performance**: The larger the input, the slower the hashing process due to the additional complexity of alternating spins.
 
 ---
 
