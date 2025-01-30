@@ -3,7 +3,7 @@ Spinning Cat Hashing Algorithm (SCHA) - Secure Version
 
 The secure version of SCHA is inspired by the spinning cat 'uia' meme, but with an enhanced, more robust hash output. 
 Instead of using a small character set, the algorithm generates a configurable-length hash (in bytes), which is then 
-encoded as a hexadecimal string for improved readability and usability.
+encoded as a hexadecimal string for improved readability and usability. It has a good confusion and diffusion in my opinion.
 
 While it retains the playful origins of SCHA, this secure version produces a larger and more complex hash output, 
 offering better unpredictability compared to the original version.
@@ -39,7 +39,8 @@ where each byte is represented by two hex characters, which effectively doubles 
 represents 4 bits).
 
 For example:
-- A 256-byte output generates a 256-character hexadecimal string (which corresponds to 256 bytes or 2048 bits of entropy).
+- A 128-byte output generates a 256-character hexadecimal string (which corresponds to 128 bytes or 1024 bits of entropy).
+- A 256-byte output generates a 512-character hexadecimal string (which corresponds to 256 bytes or 2048 bits of entropy).
 - A 384-byte output generates a 768-character hexadecimal string (which corresponds to 384 bytes or 3072 bits of entropy).
 - A 512-byte output generates a 1024-character hexadecimal string (which corresponds to 512 bytes or 4096 bits of entropy).
 
