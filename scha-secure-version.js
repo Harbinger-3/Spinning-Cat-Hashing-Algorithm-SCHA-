@@ -151,6 +151,6 @@ var cathash = SCHA_Hash(plaintext, catlength);
 
 console.timeEnd("Hashing Speed");
 
-console.log("Hash Length: " + catlength);
+console.log("Hash Byte Length: " + (catlength * 2));
 console.log("Plaintext: \"" + plaintext + "\"");
-console.log("Hash Output: \"" + cathash + "\"");
+console.log("SCHA Hash: \"" + cathash + "\"");
